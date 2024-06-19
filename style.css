@@ -2,14 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #163153;
 }
 
 header{
+    background-color: #163153;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 4vw;
+}
+
+section{
+    background-color: #163153;
 }
 
 .logo {
@@ -44,3 +48,4 @@ header{
     margin-top: -17vw;
     margin-left: 70vw;
 }
+
