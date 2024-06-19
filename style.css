@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #163153;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4vw;
+}
+
+.logo {
+    padding-left: 6vw;
+    width: 40vw;
+}
+
+.menu{
+    height: 7vw;
+    padding-right: 6vw ;
+}
+
+.texto1{
+  font-family: "Inter", sans-serif;
+  color: #facc15;
+  padding-left: 8vw;
+  padding-top: 10vw;
+  font-size: 4vw;
+}
+
+.titulo {
+    font-family: "Poppins";
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    padding-left: 8vw;
+    padding-top: 3vw;
+    font-size: 7vw ;
+
+}
+
+.setinha{
+    margin-top: -17vw;
+    margin-left: 70vw;
+}
