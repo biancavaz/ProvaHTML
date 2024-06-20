@@ -41,7 +41,6 @@ section{
     padding-left: 8vw;
     padding-top: 3vw;
     font-size: 7vw ;
-
 }
 
 .setinha{
@@ -49,3 +48,80 @@ section{
     margin-left: 70vw;
 }
 
+.email{
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    color: #abb2c3;
+    background-color: #244166;
+    align-items: center;
+    padding: 5.5vw;
+    padding-left: 7vw;
+    margin-left: 6vw;
+    margin-right: 18vw;
+    border-radius: 10vw;
+}
+
+.days{
+    color: #ffffff;
+    background-color: #1877F2;
+    font-family: "Inter", sans-serif;
+    border-radius: 10vw;
+    padding: 5vw;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 6vw;
+    margin-right: 40vw;
+}
+
+.pessoinhas{
+    margin-top: 10vw;
+    padding-left: 6vw;
+}
+
+.numeros {
+    color: #ffffff;
+    display: flex;
+    margin-top: 10px;
+}
+
+.num {
+    margin-left: 6vw;
+}
+
+.outronum{
+    margin-left: 25vw;
+}
+
+.estrelinhas{
+    color: #ffffff;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.Happy{
+    margin-left: 6vw;
+}
+
+.estrela{
+    margin-left: 11vw;
+}
+
+.review{
+    margin-left: 3vw;
+    font-size: 10px;
+}
+
+
+
+.capa{
+    width: 100vw;
+}
+
+.celulares{
+    width: 50vw;
+}
+
+.mulhercelular{
+    width: 30vw;
+}
