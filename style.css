@@ -122,18 +122,18 @@ section{
     font-family: "Inter", sans-serif;
     font-size: 10vw;
     margin-top: 45vw;
-    margin-left: 6vw;
+    margin-left: 8vw;
 }
 
 .appplataform{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    padding-left: 6vw;
+    padding-left: 8vw;
     margin-top: 5vw;
     line-height: 7vw;
     color: #757B8A;
-    padding-right: 10vw;
+    padding-right: 8vw;
 }
 
 .start{
@@ -144,7 +144,7 @@ section{
     border-radius: 10vw;
     color: #ffffff;
     text-align: center;
-    margin-left: 6vw;
+    margin-left: 7vw;
     margin-right: 40vw;
     margin-top: 4vw;
     font-weight: 500;
@@ -152,14 +152,14 @@ section{
 
 .celulares{
     padding-top: 10vw;
-    width: 102vw;
+    width: 100vw;
 }
 
 .work{
     font-family: "Inter", sans-serif;
     font-size: 10px;
     padding-left: 6vw;
-    padding-top: 25vw;
+    padding-top: 20vw;
     color: #1877F2;
 }
 
@@ -170,10 +170,146 @@ section{
     font-size: 7vw;
 }
 
-
-
-
-.mulhercelular{
-    width: 30vw;
+.Container{
+    font-family: "Inter", sans-serif;
+    background-color: #F9FAFF;
+    margin-top: 10vw;
+    border-radius: 7vw;
+    margin-left: 5.3vw;
+    margin-right: 5.3vw;
+    padding-bottom: 13.8vw;
 }
 
+.imgMouse{
+    width: 12.8vw;
+    height: 12.8vw;
+}
+.containerMouse{
+    padding-top: 15vw;
+    display: flex;
+    margin-left: 6vw;
+}
+
+.textoMouse{
+    font-size: 4.8vw;
+    padding-left: 5vw;
+    letter-spacing: -1px;
+}
+
+.texoAdicionalMouse{
+   color: #808D9E;
+   font-size: 3.7vw;
+   font-weight: 500;
+   padding-left: 5vw;
+   padding-top: 3vw;
+}
+
+.linha{
+    padding: 0.1vw;
+    margin: 10vw 5vw;
+    background-color: #E9ECF2;
+}
+
+.containergarrinha{
+    display: flex;
+    padding-top: 4vw;
+    margin-left: 6vw;
+}
+
+.Start{
+    margin-top: 26.4vw;
+    font-size: 9.6vw;
+    padding-left: 5.3vw;
+    margin-bottom: 3.7vw;
+    letter-spacing: -1px;
+    margin-right: 20vw;
+}
+
+.Nunc{
+    font-size: 3.7vw;
+    font-weight: 500;
+    line-height: 6.9vw;
+    letter-spacing: -0.5px;
+    margin-right: 8vw;
+    margin-left: 6vw;
+}
+
+.only{
+    margin-top: 11.7vw;
+    margin-left: 6vw;
+}
+
+.silver{
+    color: #808D9E;
+    font-size: 3.7vw;
+    font-weight: 400;
+    line-height: 5.8vw;
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+
+.pricing{
+    margin-top: 4.5vw;
+    padding: 4vw;
+    margin-left: 6vw;
+    margin-right: 30vw;
+    font-size: 4.2vw;
+    font-weight: 800;
+    border: 1px solid;
+    border-radius: 21.3vw;
+    text-align: center;
+}
+.mulhercelular{
+    width: 91.2vw;
+    height: 100vw;
+    margin-top: 26vw;
+    margin-left: 6vw;
+}
+
+.Business{
+    font-size: 9.6vw;
+    font-family: "Inter", sans-serif;
+    margin-left: 6vw;
+    letter-spacing: -1px;
+}
+
+.messaging{
+    font-family: "Inter", sans-serif;
+    color: #757B8A;
+    font-size: 4.2vw;
+    padding-left: 6vw;
+    margin-top: 4.6vw;
+    font-weight: 500;
+    line-height: 6.8vw;
+    margin-right: 10vw;
+}
+
+.nuns{
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 8.5vw;
+    font-size: 8.5vw;
+}
+
+.nunsp{
+    padding-right: 30.6vw;
+}
+
+.outros{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    margin-top: 3.2vw;
+    color: #757B8A;
+}
+
+.Conversation{
+    font-size: 3.7vw;
+    padding-left: 6vw;
+    font-weight: 500;
+    padding-right:  10.6vw;
+}
+
+.triggers{
+    font-size: 3.7vw;
+    font-weight: 500;
+}
