@@ -112,16 +112,68 @@ section{
     font-size: 10px;
 }
 
-
-
 .capa{
-    width: 100vw;
+    width: 95vw;
+    margin-top: 6vw;
+    margin-left: 5vw;
+}
+
+.customer{
+    font-family: "Inter", sans-serif;
+    font-size: 10vw;
+    margin-top: 45vw;
+    margin-left: 6vw;
+}
+
+.appplataform{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 6vw;
+    margin-top: 5vw;
+    line-height: 7vw;
+    color: #757B8A;
+    padding-right: 10vw;
+}
+
+.start{
+    font-family: "Inter", sans-serif;
+    padding: 18px;
+    font-size: 15px;
+    background-color: #1877F2;
+    border-radius: 10vw;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 6vw;
+    margin-right: 40vw;
+    margin-top: 4vw;
+    font-weight: 500;
 }
 
 .celulares{
-    width: 50vw;
+    padding-top: 10vw;
+    width: 102vw;
 }
+
+.work{
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    padding-left: 6vw;
+    padding-top: 25vw;
+    color: #1877F2;
+}
+
+.Coca{
+    font-family: "Inter", sans-serif;
+    padding-left: 6vw;
+    padding-top: 5vw;
+    font-size: 7vw;
+}
+
+
+
 
 .mulhercelular{
     width: 30vw;
 }
+
