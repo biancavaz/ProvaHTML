@@ -31,7 +31,7 @@ section{
   color: #facc15;
   padding-left: 8vw;
   padding-top: 10vw;
-  font-size: 4vw;
+  font-size: 15px;
 }
 
 .titulo {
@@ -39,18 +39,18 @@ section{
     font-weight: 100;
     color: rgb(255, 255, 255);
     padding-left: 8vw;
-    padding-top: 3vw;
-    font-size: 7vw ;
+    padding-top: 8px;
+    font-size: 28px;
 }
 
 .setinha{
-    margin-top: -17vw;
-    margin-left: 70vw;
+    margin-top: -70px;
+    margin-left: 270px;
 }
 
 .email{
     font-family: "Inter", sans-serif;
-    font-size: 4vw;
+    font-size: 16px;
     color: #abb2c3;
     background-color: #244166;
     align-items: center;
@@ -75,7 +75,7 @@ section{
 
 .pessoinhas{
     margin-top: 10vw;
-    padding-left: 6vw;
+    padding-left: 7vw;
 }
 
 .numeros {
@@ -121,7 +121,7 @@ section{
 .customer{
     font-family: "Inter", sans-serif;
     font-size: 10vw;
-    margin-top: 45vw;
+    margin-top: 148px;
     margin-left: 8vw;
 }
 
@@ -130,7 +130,7 @@ section{
     font-weight: 500;
     font-size: 16px;
     padding-left: 8vw;
-    margin-top: 5vw;
+    margin-top: 16px;
     line-height: 7vw;
     color: #757B8A;
     padding-right: 8vw;
@@ -146,12 +146,12 @@ section{
     text-align: center;
     margin-left: 7vw;
     margin-right: 40vw;
-    margin-top: 4vw;
+    margin-top: 16px;
     font-weight: 500;
 }
 
 .celulares{
-    padding-top: 10vw;
+    padding-top: 31px;
     width: 100vw;
 }
 
@@ -159,21 +159,21 @@ section{
     font-family: "Inter", sans-serif;
     font-size: 10px;
     padding-left: 6vw;
-    padding-top: 20vw;
+    padding-top: 75px;
     color: #1877F2;
 }
 
 .Coca{
     font-family: "Inter", sans-serif;
     padding-left: 6vw;
-    padding-top: 5vw;
+    padding-top: 16px;
     font-size: 7vw;
 }
 
 .Container{
     font-family: "Inter", sans-serif;
     background-color: #F9FAFF;
-    margin-top: 10vw;
+    margin-top: 31px;
     border-radius: 7vw;
     margin-left: 5.3vw;
     margin-right: 5.3vw;
@@ -191,14 +191,14 @@ section{
 }
 
 .textoMouse{
-    font-size: 4.8vw;
+    font-size: 18px;
     padding-left: 5vw;
     letter-spacing: -1px;
 }
 
 .texoAdicionalMouse{
    color: #808D9E;
-   font-size: 3.7vw;
+   font-size: 14px;
    font-weight: 500;
    padding-left: 5vw;
    padding-top: 3vw;
@@ -218,7 +218,7 @@ section{
 
 .Start{
     margin-top: 26.4vw;
-    font-size: 9.6vw;
+    font-size: 36px;
     padding-left: 5.3vw;
     margin-bottom: 3.7vw;
     letter-spacing: -1px;
@@ -226,7 +226,7 @@ section{
 }
 
 .Nunc{
-    font-size: 3.7vw;
+    font-size: 14px;
     font-weight: 500;
     line-height: 6.9vw;
     letter-spacing: -0.5px;
@@ -267,7 +267,7 @@ section{
 }
 
 .Business{
-    font-size: 9.6vw;
+    font-size: 36px;
     font-family: "Inter", sans-serif;
     margin-left: 6vw;
     letter-spacing: -1px;
@@ -276,7 +276,7 @@ section{
 .messaging{
     font-family: "Inter", sans-serif;
     color: #757B8A;
-    font-size: 4.2vw;
+    font-size: 16px;
     padding-left: 6vw;
     margin-top: 4.6vw;
     font-weight: 500;
@@ -312,4 +312,43 @@ section{
 .triggers{
     font-size: 3.7vw;
     font-weight: 500;
+    padding-left: 15px;
+}
+
+.testimonialss{
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    padding-left: 7vw;
+    padding-top: 138px;
+    color: #1877F2;
+}
+
+.cplataform{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 6vw;
+}
+
+.fundo{
+    background-color: #F9FAFF;
+    border-radius: 20px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 16px;
+}
+
+.junta{
+    display: flex;
+    padding: 40px 40px;
+}
+.nome{
+    font-size: 20px;
+    padding-left: 20px ;
+    padding-bottom: 6px;
+}
+
+.funcao{
+    padding-left: 20px;
+
 }
