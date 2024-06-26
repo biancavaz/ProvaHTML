@@ -34,26 +34,27 @@ section{
   font-size: 15px;
 }
 
-.titulo {
+.titulo h1 {
     font-family: "Poppins";
-    font-weight: 100;
+    font-weight: 600;
+    letter-spacing: -1px;
     color: rgb(255, 255, 255);
     padding-left: 8vw;
     padding-top: 8px;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .setinha{
     margin-top: -70px;
-    margin-left: 270px;
+    margin-left: 260px;
 }
 
-.email{
+.email h4{
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #abb2c3;
     background-color: #244166;
-    align-items: center;
+    font-weight: 400;
     padding: 5.5vw;
     padding-left: 7vw;
     margin-left: 6vw;
@@ -79,6 +80,7 @@ section{
 }
 
 .numeros {
+    font-family: "archivo";
     color: #ffffff;
     display: flex;
     margin-top: 10px;
@@ -93,14 +95,18 @@ section{
 }
 
 .estrelinhas{
-    color: #ffffff;
+    color: #ABB2C3;
     display: flex;
     margin-top: 10px;
     align-items: center;
+    font-weight: 400;
+    
 }
 
 .Happy{
+    font-family: "Inter", sans-serif;
     margin-left: 6vw;
+    font-size: 14px;
 }
 
 .estrela{
@@ -108,8 +114,9 @@ section{
 }
 
 .review{
+    font-family: "Inter", sans-serif;
     margin-left: 3vw;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .capa{
@@ -118,11 +125,14 @@ section{
     margin-left: 5vw;
 }
 
-.customer{
-    font-family: "Inter", sans-serif;
-    font-size: 10vw;
+.customer {
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 36px;
     margin-top: 148px;
     margin-left: 8vw;
+    letter-spacing: -1px;
+    line-height: 43.2px;
 }
 
 .appplataform{
@@ -147,7 +157,7 @@ section{
     margin-left: 7vw;
     margin-right: 40vw;
     margin-top: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .celulares{
@@ -226,8 +236,9 @@ section{
 }
 
 .Nunc{
+    font-family: "DM sans";
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 6.9vw;
     letter-spacing: -0.5px;
     margin-right: 8vw;
@@ -235,6 +246,8 @@ section{
 }
 
 .only{
+    font-family: "poppins";
+    font-weight: 600;
     margin-top: 11.7vw;
     margin-left: 6vw;
 }
@@ -284,36 +297,29 @@ section{
     margin-right: 10vw;
 }
 
-.nuns{
+/* terminar */
+.informacoes{
     display: flex;
-    margin-left: 6vw;
-    margin-top: 8.5vw;
-    font-size: 8.5vw;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 23px;
+}
+
+.informacoesTriggers{
+    margin-left: 40px;
 }
 
 .nunsp{
-    padding-right: 30.6vw;
+    font-size: "poppins";
+    font-size: 32px;
 }
 
-.outros{
-    font-family: "Inter", sans-serif;
-    display: flex;
-    margin-top: 3.2vw;
-    color: #757B8A;
+.nunspp {
+    font-size: "poppins";
+    font-size: 32px;
 }
 
-.Conversation{
-    font-size: 3.7vw;
-    padding-left: 6vw;
-    font-weight: 500;
-    padding-right:  10.6vw;
-}
-
-.triggers{
-    font-size: 3.7vw;
-    font-weight: 500;
-    padding-left: 15px;
-}
+/* terminar*/
 
 .testimonialss{
     font-family: "Inter", sans-serif;
@@ -325,17 +331,18 @@ section{
 
 .cplataform{
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 16px;
-    margin-left: 6vw;
+    margin-left: 7vw;
 }
 
 .fundo{
     background-color: #F9FAFF;
     border-radius: 20px;
     margin-left: 6vw;
+    margin-top: 40px;
     margin-right: 6vw;
-    margin-bottom: 16px;
+    margin-bottom: -24px;
 }
 
 .junta{
@@ -343,12 +350,114 @@ section{
     padding: 40px 40px;
 }
 .nome{
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     padding-left: 20px ;
     padding-bottom: 6px;
+    letter-spacing: -1px;
+    font-weight: 700;
 }
 
 .funcao{
+    font-family: "Inter", sans-serif;
     padding-left: 20px;
+    letter-spacing: -1px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808D9E;
 
+}
+
+.descricaoPessoa{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 35px;
+    line-height: 24px;
+}
+
+.estrelasPessoa{
+    font-family: "Inter", sans-serif;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #1877F2;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    margin-top: 179px;
+
+}
+
+.tituloFooter{
+    font-size: 48px;
+    padding-left: 39px;
+    padding-right: 24px;
+    padding-top: 77px;
+}
+
+.juntaloc{
+    display: flex;
+    margin-top: -362px;
+    padding-left: 40px;
+    padding-right: 16px
+}
+
+.juntaemail{
+    display: flex;
+    padding-top: 16px;
+    padding-left: 40px;
+    padding-right: 16px;
+    align-items: center;
+}
+
+.loc{
+    font-size: 16px;
+    padding-left: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    align-items: center;
+}
+
+.linhaFooter{
+    background-color:#3B8CF4;
+    padding: 1px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 88px;
+    margin-bottom: 42px
+}
+
+.juntaFooterTerms{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.terms{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 46px;
+}
+
+.privacy{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rodape{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 48.5PX;
+}
+
+.c{
+    padding-right: 39px;
+    margin-top: 42px;
+    z-index: 1;
 }
