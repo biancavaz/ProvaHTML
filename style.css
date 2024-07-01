@@ -4,12 +4,16 @@
     padding: 0;
 }
 
-header{
+.headermobile{
     background-color: #163153;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 4vw;
+}
+
+.headerdesktop{
+    display: none;
 }
 
 section{
@@ -41,13 +45,14 @@ section{
     color: rgb(255, 255, 255);
     padding-left: 8vw;
     padding-top: 8px;
-    font-size: 40px;
+    font-size: 10.6vw;
 }
 
 .setinha{
     margin-top: -70px;
     margin-left: 260px;
-}
+} 
+
 
 .email h4{
     font-family: "Inter", sans-serif;
@@ -55,19 +60,19 @@ section{
     color: #abb2c3;
     background-color: #244166;
     font-weight: 400;
-    padding: 5.5vw;
+    padding: 16px 32px;
     padding-left: 7vw;
     margin-left: 6vw;
     margin-right: 18vw;
-    border-radius: 10vw;
+    border-radius: 60px;
 }
 
-.days{
+.days h4{
     color: #ffffff;
     background-color: #1877F2;
     font-family: "Inter", sans-serif;
-    border-radius: 10vw;
-    padding: 5vw;
+    border-radius: 60px;
+    padding: 16px 32px;
     text-align: center;
     margin-top: 10px;
     margin-left: 6vw;
@@ -75,32 +80,29 @@ section{
 }
 
 .pessoinhas{
-    margin-top: 10vw;
+    margin-top: 40.5px;
     padding-left: 7vw;
 }
 
-.numeros {
+.num{
     font-family: "archivo";
     color: #ffffff;
-    display: flex;
     margin-top: 10px;
 }
 
-.num {
+.happy{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
     margin-left: 6vw;
+    font-size: 14px;
 }
-
-.outronum{
-    margin-left: 25vw;
-}
-
-.estrelinhas{
-    color: #ABB2C3;
+/*
+//terminar
+.numeros {
     display: flex;
+    font-family: "archivo";
+    color: #ffffff;
     margin-top: 10px;
-    align-items: center;
-    font-weight: 400;
-    
 }
 
 .Happy{
@@ -117,6 +119,27 @@ section{
     font-family: "Inter", sans-serif;
     margin-left: 3vw;
     font-size: 14px;
+    }
+
+    .outronum{
+    margin-left: 25vw;
+    }
+
+    .num {
+    margin-left: 6vw;
+    }
+// terminar
+
+*/
+
+
+.estrelinhas{
+    color: #ABB2C3;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    font-weight: 400;
+    
 }
 
 .capa{
@@ -310,16 +333,19 @@ section{
 }
 
 .nunsp{
-    font-size: "poppins";
+    font-family: "poppins";
     font-size: 32px;
+    font-weight: 600;
+
 }
 
-.nunspp {
-    font-size: "poppins";
-    font-size: 32px;
-}
+.triggers{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 500;
+    color: #757B8A;
 
-/* terminar*/
+}
 
 .testimonialss{
     font-family: "Inter", sans-serif;
@@ -393,6 +419,8 @@ footer{
 }
 
 .tituloFooter{
+    font-family: "poppins";
+    font-weight: 600;
     font-size: 48px;
     padding-left: 39px;
     padding-right: 24px;
@@ -439,18 +467,18 @@ footer{
 
 .terms{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     padding-right: 46px;
 }
 
 .privacy{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .rodape{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     padding-top: 39px;
     padding-bottom: 48.5PX;
@@ -460,4 +488,116 @@ footer{
     padding-right: 39px;
     margin-top: 42px;
     z-index: 1;
+}
+
+@media (min-width: 1440px) {
+
+    .headermobile{
+       display: none;
+    }
+
+    .logo{
+        width: 18vw;
+        padding-left: 120px;
+        margin-right: 50px;
+    }
+
+    .headerdesktop{
+        color: #ffffff;
+        font-family: "inter";
+        background-color: #163153;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 26px;
+    }
+
+    .espaco{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        gap: 32px;
+    }
+
+    .espacolateral{
+        display: flex;
+        align-items: center;
+        margin-right: 120px;
+        gap: 32px;
+    }
+
+    .about{
+        color: #FACC15;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .pages{
+        font-weight: 400;
+        font-size: 16px;
+        color: #EDEDED;
+    }
+
+    .singin{
+        font-size: 16px;
+    }
+
+    .fundoheader{
+        background-color: #1877F2;
+        padding: 16px 32px;
+        font-weight: 500;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .titulo h1{
+        font-size: 64px;
+        width: 620px;
+    }
+
+    .setinha{
+        width: 95.5px;
+        margin-left: 477px;
+    }
+
+    .juntadays{
+        display: flex;
+    }
+
+    .email h4{
+        padding: 18px;
+        padding-right: 114px;
+        margin-right: 10px;
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+
+    .days h4{
+        padding: 16px 32px;
+        margin-left: 2px;
+        font-weight: 500;
+    }
+
+    .flexpessoinhas{
+        display: flex;
+        margin-top: 98px;
+    }
+
+    .pessoinhas{
+        margin-top: 0;
+    }
+
+    .happy{
+        margin-left: 500px;
+    }
+    .capa{
+        /*position: absolute;*/
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 900px;
+        margin-top: 100px;
+        margin-left: 550px;
+    }
+
+
 }
