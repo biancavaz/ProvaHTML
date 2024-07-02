@@ -18,6 +18,7 @@
 
 section{
     background-color: #163153;
+    
 }
 
 .logo {
@@ -88,50 +89,46 @@ section{
     font-family: "archivo";
     color: #ffffff;
     margin-top: 10px;
+    margin-left: 6vw;
 }
 
-.happy{
-    color: #ffffff;
+.Happy {
+    margin-top: 10px;
     font-family: "Inter", sans-serif;
+    color: #ABB2C3;
     margin-left: 6vw;
     font-size: 14px;
+    font-weight: 500;
 }
-/*
-//terminar
-.numeros {
-    display: flex;
+
+.outronum {
     font-family: "archivo";
     color: #ffffff;
     margin-top: 10px;
+    margin-left: 33px;
 }
 
-.Happy{
-    font-family: "Inter", sans-serif;
-    margin-left: 6vw;
-    font-size: 14px;
-}
-
-.estrela{
-    margin-left: 11vw;
+.juntareview{
+    display: flex;
 }
 
 .review{
-    font-family: "Inter", sans-serif;
-    margin-left: 3vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ABB2C3;
+    font-weight: 500;
     font-size: 14px;
-    }
+    font-family: "Inter", sans-serif;
+}
 
-    .outronum{
-    margin-left: 25vw;
-    }
+.juntatudo{
+    display: flex;
+}
 
-    .num {
-    margin-left: 6vw;
-    }
-// terminar
-
-*/
-
+.estrela{
+    margin-top: 10px;
+    margin-left: 33px;
+}
 
 .estrelinhas{
     color: #ABB2C3;
@@ -598,6 +595,5 @@ footer{
         margin-top: 100px;
         margin-left: 550px;
     }
-
 
 }
