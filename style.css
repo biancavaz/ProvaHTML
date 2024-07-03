@@ -489,6 +489,17 @@ footer{
 
 @media (min-width: 1440px) {
 
+    section{
+        display: flex;
+    }
+
+    .capa{
+        width: 850px;
+        margin-left: -450px;
+        margin-top: -1
+        px;
+    }
+
     .headermobile{
        display: none;
     }
@@ -585,15 +596,6 @@ footer{
 
     .happy{
         margin-left: 500px;
-    }
-    .capa{
-        /*position: absolute;*/
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 900px;
-        margin-top: 100px;
-        margin-left: 550px;
     }
 
 }
