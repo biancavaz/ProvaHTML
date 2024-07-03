@@ -494,10 +494,9 @@ footer{
     }
 
     .capa{
-        width: 850px;
+        width: 865px;
         margin-left: -450px;
-        margin-top: -1
-        px;
+        margin-top: -2px;
     }
 
     .headermobile{
@@ -580,9 +579,10 @@ footer{
     }
 
     .days h4{
-        padding: 16px 32px;
+        padding: 18px 32px;
         margin-left: 2px;
         font-weight: 500;
+        margin-right: 440px;
     }
 
     .flexpessoinhas{
@@ -591,11 +591,38 @@ footer{
     }
 
     .pessoinhas{
+        width: 100px;
         margin-top: 0;
     }
 
-    .happy{
-        margin-left: 500px;
+    .numeros{
+        margin-left: -30px;
     }
 
+    .expUser{
+        display: flex;
+    }
+
+    .celulares{
+        width: 630px;
+        margin-right: 121px;
+        margin-top: 58px;
+    }
+
+    .customer{
+        font-size: 48px;
+        line-height: 57.6px;
+        margin-top: 160px
+    }
+
+    .appplataform{
+        line-height: 25.6px;
+        padding-right: 89px;
+        margin-top: 32px;
+    }
+
+    .start{
+        margin-top: 40px;
+        margin-right: 370px;
+    }
 }
