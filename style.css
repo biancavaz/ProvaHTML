@@ -639,17 +639,75 @@ footer{
         font-size: 48px;
     }
 
+    .containerjunta{
+        width: 50%;
+    }
+
+    .containerstart{
+        width: 50%;
+    }
+
     .imgMouse{
         width: 60px;
         height: 60px;
     }
 
+    .containerMouse{
+        padding-top: 105px;
+    }
+
+    .containergarrinha{
+        padding-top: 0
+    }
+
     .Start{
         font-size: 46px;
+        margin-top: 99px;
+        width: 360px;
     }
 
     .pricing{
-        margin-right: 0;
         font-size: 16px;
+        padding: 0;
+        width: 191px;
+        height: 48px;
+        align-content: center;
+        font-weight: 900;
+    }
+
+    .silver{
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .Container{
+        border-radius: 20px;
+        margin-left: 120px;
+        margin-right: 120px;
+        padding-bottom: 118px ;
+    }
+
+    .textoMouse{
+        font-size: 24px;
+    }
+
+    .texoAdicionalMouse{
+        padding-top: 10px;
+    }
+
+    .linha{
+        width: 436px;
+        height: 1px;
+        margin: 52px 54px;
+        padding: 0;
+        margin-left: 6vw;
+    }
+
+    .nunc{
+
+    }
+
+    .only{
+        margin-top: 161px;
     }
 }
