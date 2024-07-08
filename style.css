@@ -487,16 +487,44 @@ footer{
     z-index: 1;
 }
 
-@media (min-width: 1440px) {
+.C{
+    display: none;
+}
+
+.mulhercelulardesk{
+    display: none;
+}
+
+.fundoo{
+    display: none;
+}
+
+
+
+
+@media (min-width: 992px) {
 
     section{
         display: flex;
+        justify-content: space-between;
+    }
+
+    .teste1{
+        flex: 1;
+        max-width: 50%;
+        flex: 2;
+    }
+
+    .teste2{
+        flex: 1;
+        max-width: 45%;
     }
 
     .capa{
-        width: 865px;
-        margin-left: -450px;
+        width: 100%;
+        margin-left: 0;
         margin-top: -2px;
+        min-width: 360px;
     }
 
     .headermobile{
@@ -574,15 +602,14 @@ footer{
         padding: 18px;
         padding-right: 114px;
         margin-right: 10px;
-        margin-left: 120px;
         margin-top: 10px;
     }
 
     .days h4{
         padding: 18px 32px;
-        margin-left: 2px;
+        margin-left: 0;
         font-weight: 500;
-        margin-right: 440px;
+        margin-right: 0;
     }
 
     .flexpessoinhas{
@@ -602,9 +629,16 @@ footer{
         display: flex;
     }
 
+    .respon{
+        flex: 1;
+    }
+
+    .respon2{
+        flex: 2;
+    }
+
     .celulares{
         width: 630px;
-        margin-right: 121px;
         margin-top: 58px;
     }
 
@@ -621,8 +655,10 @@ footer{
     }
 
     .start{
+        width: 210px;
+        height: 56px;
         margin-top: 40px;
-        margin-right: 370px;
+        margin-right: 10px;
     }
 
     .Container{
@@ -676,7 +712,7 @@ footer{
         align-content: center;
         font-weight: 900;
         margin-left: 0;
-        //margin: 170px;
+        margin-top: 173px;
     }
 
     .silver{
@@ -688,7 +724,7 @@ footer{
         border-radius: 20px;
         margin-left: 120px;
         margin-right: 120px;
-        padding-bottom: 118px ;
+        padding-bottom: 65px ;
     }
 
     .textoMouse{
@@ -723,11 +759,146 @@ footer{
     }
 
     .juntaSO{
-        width: 50%;
+        width: 47%;
     }
 
     .juntaP{
         width: 50%;
     }
 
+    .mulhercelular{
+        display: none;
+    }
+
+    .juntadesk{
+        display: flex;
+    }
+
+    .messaging{
+        line-height: 25.6px;
+        margin-top: 32px;
+        padding-left: 0;
+        margin-right: 90px;
+    }
+
+    .Business{
+        font-size: 48px;
+        margin-top: 243px;
+        margin-left: 0;
+    }
+
+    .mulhercelulardesk{
+        display: grid;
+        margin-top: 198px;
+    }
+
+    .informacoes{
+        margin-left: 0;
+    }
+
+    .tudojunto{
+        margin-top: 50px;
+    }
+
+    .testimonialss{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .cplataform{
+        text-align: center;
+        margin-inline: auto;
+        width: 510px;
+    }
+
+    .fundo{
+        width: 471px;
+        height: 280px;
+        margin: 0;
+    }
+
+    .fundoo{
+        display: grid;
+        width: 471px;
+        height: 280px;
+        margin: 0;
+    }
+
+    .decima{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        gap: 100px;
+    }
+
+    .padd{
+        width: 80px;
+        height: 6px;
+        background-color: #1877F2;
+    }
+
+    .pad{
+        width: 80px;
+        height: 6px;
+        margin-left: 10px;
+        background-color: #F2F4FC;
+    }
+
+    .juntapad{
+        display: flex;
+        margin-left: 612px;
+        margin-right: 596px;
+        margin-top: 80px;
+    }
+
+    footer{
+        margin-top: 115px;
+    }
+
+    .tituloFooter{
+        font-size: 64px;
+        margin-left: 120px;
+        margin-right: 558px;
+    }
+
+    .juntafooter{
+      display: flex;
+      flex-direction: row;
+      margin-top: -400px;
+    }
+
+    .juntaloc{
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .juntaemail{
+        width: 50%;
+        padding-top: 0;
+    }
+
+    .rodape{
+        padding-bottom: 35.8px;
+    }
+
+    .c{
+        display: none;
+    }
+
+    .C{
+        display: grid;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .teste1{
+        flex: 2;
+        max-width: 40%;
+    }
+
+    .teste2{
+        flex: 3;
+        max-width: 60%;
+    }
 }
