@@ -637,7 +637,7 @@ footer{
     .Coca {
         text-align: center;
         font-size: 38px;
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     .containerjunta{
@@ -664,6 +664,7 @@ footer{
     .Start{
         font-size: 46px;
         margin-top: 99px;
+        margin-bottom: 18px;
         width: 360px;
     }
 
@@ -674,11 +675,13 @@ footer{
         height: 48px;
         align-content: center;
         font-weight: 900;
+        margin-left: 0;
+        //margin: 170px;
     }
 
     .silver{
         font-size: 14px;
-        margin-top: 0;
+        margin-top: -30px;
     }
 
     .Container{
@@ -690,10 +693,12 @@ footer{
 
     .textoMouse{
         font-size: 24px;
+        padding-left: 40px;
     }
 
     .texoAdicionalMouse{
         padding-top: 10px;
+        padding-left: 40px;
     }
 
     .linha{
@@ -704,11 +709,25 @@ footer{
         margin-left: 6vw;
     }
 
-    .nunc{
-
+    .Nunc{
+        line-height: 26px;
+        margin-left: 80px;
     }
 
     .only{
         margin-top: 161px;
     }
+
+    .juntaaOnly{
+        display: flex;
+    }
+
+    .juntaSO{
+        width: 50%;
+    }
+
+    .juntaP{
+        width: 50%;
+    }
+
 }
