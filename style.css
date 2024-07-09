@@ -66,6 +66,7 @@ section{
     margin-left: 6vw;
     margin-right: 18vw;
     border-radius: 60px;
+
 }
 
 .days h4{
@@ -81,7 +82,7 @@ section{
 }
 
 .pessoinhas{
-    margin-top: 40.5px;
+    margin-top: 41.5px;
     padding-left: 7vw;
 }
 
@@ -505,6 +506,7 @@ footer{
 @media (min-width: 992px) {
 
     section{
+        padding-bottom: 70px;
         display: flex;
         justify-content: space-between;
     }
@@ -618,8 +620,9 @@ footer{
     }
 
     .pessoinhas{
-        margin-top: 0;
-    }
+        margin-top: 4.5px;
+        max-height: 54px;
+     }
 
     .numeros{
         margin-left: -30px;
@@ -785,11 +788,14 @@ footer{
         font-size: 48px;
         margin-top: 243px;
         margin-left: 0;
+        margin-right: 50px;
     }
 
     .mulhercelulardesk{
         display: grid;
         margin-top: 198px;
+        margin-left: 80px;
+        max-width: 550px;
     }
 
     .informacoes{
@@ -891,6 +897,23 @@ footer{
 }
 
 @media (min-width: 1280px) {
+
+    section{
+        padding-bottom: 0;
+    }
+
+    .capa{
+        min-width: 320px;
+    }
+
+    .mulhercelulardesk{
+        min-width: 700px;
+        margin-left: 150px;
+    }
+
+    .Business{
+        margin-right: 180px;
+    }
 
     .teste1{
         flex: 2;
