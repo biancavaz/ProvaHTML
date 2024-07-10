@@ -283,14 +283,14 @@ section{
 }
 
 .pricing{
-    margin-top: 4.5vw;
-    padding: 4vw;
-    margin-left: 6vw;
-    margin-right: 30vw;
-    font-size: 4.2vw;
+    margin-top: 29px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 144px;
+    font-size: 16px;
     font-weight: 800;
     border: 1px solid;
-    border-radius: 21.3vw;
+    border-radius: 80px;
     text-align: center;
 }
 .mulhercelular{
@@ -318,11 +318,10 @@ section{
     margin-right: 10vw;
 }
 
-/* terminar */
 .informacoes{
     display: flex;
     margin-top: 32px;
-    margin-left: 24px;
+    margin-left: 6vw;
     margin-right: 23px;
 }
 
@@ -641,7 +640,7 @@ footer{
     }
 
     .celulares{
-        width: 630px;
+        width: 100%;
         margin-top: 58px;
     }
 
@@ -653,7 +652,6 @@ footer{
 
     .appplataform{
         line-height: 25.6px;
-        padding-right: 89px;
         margin-top: 32px;
     }
 
@@ -715,7 +713,7 @@ footer{
         align-content: center;
         font-weight: 900;
         margin-left: 0;
-        margin-top: 173px;
+        margin-top: 162px;
     }
 
     .silver{
@@ -876,11 +874,15 @@ footer{
     .juntaloc{
         width: 50%;
         margin-top: 0;
+        align-items: center;
+        margin-left: 131px;
     }
 
     .juntaemail{
         width: 50%;
         padding-top: 0;
+        padding-right: 0;
+        margin-right: 560px ;
     }
 
     .rodape{
@@ -893,6 +895,7 @@ footer{
 
     .C{
         display: grid;
+        margin-left: 697px;
     }
 }
 
