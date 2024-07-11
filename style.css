@@ -50,8 +50,8 @@ section{
 }
 
 .setinha{
-    margin-top: -70px;
-    margin-left: 260px;
+    margin-top: -18.6vw;
+    margin-left: 70vw;
 } 
 
 
@@ -601,9 +601,9 @@ footer{
 
     .email h4{
         padding: 18px;
-        padding-right: 114px;
         margin-right: 10px;
         margin-top: 10px;
+        width: clamp(200px, 20vw, 300px);
     }
 
     .days h4{
@@ -857,46 +857,65 @@ footer{
 
     footer{
         margin-top: 115px;
+        background-image: url("imagens/c2.svg");
+        background-repeat: no-repeat;
+        background-position-x: 80%;
+        background-position-y: bottom;
     }
 
     .tituloFooter{
         font-size: 64px;
         margin-left: 120px;
-        margin-right: 558px;
+        padding-left: 0;
+        width: 540px;
     }
 
-    .juntafooter{
+     .juntafooter{
       display: flex;
       flex-direction: row;
-      margin-top: -400px;
+      margin-left: 120px;
+      margin-top: 60px;
     }
 
+    
     .juntaloc{
-        width: 50%;
         margin-top: 0;
+        margin-right: -30px;
         align-items: center;
-        margin-left: 131px;
+        padding: 0;
     }
 
+    .loc{
+        width: 70%;
+    }
     .juntaemail{
         width: 50%;
-        padding-top: 0;
-        padding-right: 0;
-        margin-right: 560px ;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .juntatudodesk{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: 120px;
+        flex-direction: row-reverse;
+    }
+
+    .linhaFooter{
+        margin-left: 120px;
+        margin-right: 118px;
     }
 
     .rodape{
         padding-bottom: 35.8px;
     }
+   
 
     .c{
         display: none;
     }
 
-    .C{
-        display: grid;
-        margin-left: 697px;
-    }
 }
 
 @media (min-width: 1280px) {
@@ -926,5 +945,13 @@ footer{
     .teste2{
         flex: 3;
         max-width: 60%;
+    }
+
+    .email h4{
+        width: clamp(220px, 20vw, 240px);
+    }
+
+    .days h4{
+        width: clamp(180px, 20vw, 220px );
     }
 }
