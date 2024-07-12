@@ -587,7 +587,9 @@ footer{
 
     .titulo h1{
         font-size: 64px;
-        width: 620px;
+        width: 520px;
+        margin-left: 8vw;
+        padding-left: 0;
     }
 
     .setinha{
@@ -624,8 +626,29 @@ footer{
      }
 
     .numeros{
+      width: 190px;
+      margin-left: 70px;
+    }
+
+    .juntatudo{
         margin-left: -30px;
     }
+
+    .Happy{
+        margin-left: 0;
+    }
+    .num{
+        margin-left: 0;
+    }
+
+    .estrela{
+        margin-left: 0;
+    }
+
+    .outronum{
+        margin-left: 0;
+    }
+
 
     .expUser{
         display: flex;
@@ -836,13 +859,13 @@ footer{
     }
 
     .padd{
-        width: 80px;
+        width: clamp(50px, 5vw ,80px);
         height: 6px;
         background-color: #1877F2;
     }
 
     .pad{
-        width: 80px;
+        width: clamp(50px, 5vw ,80px);
         height: 6px;
         margin-left: 10px;
         background-color: #F2F4FC;
@@ -850,9 +873,8 @@ footer{
 
     .juntapad{
         display: flex;
-        margin-left: 612px;
-        margin-right: 596px;
         margin-top: 80px;
+        justify-content: center;
     }
 
     footer{
