@@ -31,7 +31,7 @@ section{
     padding-right: 6vw ;
 }
 
-.texto1{
+.ForHeader{
   font-family: "Inter", sans-serif;
   color: #facc15;
   padding-left: 8vw;
@@ -39,7 +39,7 @@ section{
   font-size: 15px;
 }
 
-.titulo h1 {
+.tituloHeader h1 {
     font-family: "Poppins";
     font-weight: 600;
     letter-spacing: -1px;
@@ -49,7 +49,7 @@ section{
     font-size: 10.6vw;
 }
 
-.setinha{
+.setaHeader{
     margin-top: -18.6vw;
     margin-left: 70vw;
 } 
@@ -81,19 +81,19 @@ section{
     margin-right: 40vw;
 }
 
-.pessoinhas{
+.pessoasHeader{
     margin-top: 41.5px;
     padding-left: 7vw;
 }
 
-.num{
+.numHeader{
     font-family: "archivo";
     color: #ffffff;
     margin-top: 10px;
     margin-left: 6vw;
 }
 
-.Happy {
+.HappyHeader {
     margin-top: 10px;
     font-family: "Inter", sans-serif;
     color: #ABB2C3;
@@ -102,18 +102,18 @@ section{
     font-weight: 500;
 }
 
-.outronum {
+.outronumHeader {
     font-family: "archivo";
     color: #ffffff;
     margin-top: 10px;
     margin-left: 33px;
 }
 
-.juntareview{
+.juntaRevieweEstrela{
     display: flex;
 }
 
-.review{
+.reviewHeader{
     margin-top: 10px;
     margin-left: 10px;
     color: #ABB2C3;
@@ -122,11 +122,11 @@ section{
     font-family: "Inter", sans-serif;
 }
 
-.juntatudo{
+.juntatudoHeaderNumerosePalavras{
     display: flex;
 }
 
-.estrela{
+.estrelaHeader{
     margin-top: 10px;
     margin-left: 33px;
 }
@@ -140,13 +140,13 @@ section{
     
 }
 
-.capa{
+.imagemCapaHeader{
     width: 95vw;
     margin-top: 6vw;
     margin-left: 5vw;
 }
 
-.customer {
+.customerexprienciaUser {
     font-family: "poppins";
     font-weight: 600;
     font-size: 36px;
@@ -156,7 +156,7 @@ section{
     line-height: 43.2px;
 }
 
-.appplataform{
+.appplataformexperienciaUser{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -167,7 +167,7 @@ section{
     padding-right: 8vw;
 }
 
-.start{
+.startexperienciaUser{
     font-family: "Inter", sans-serif;
     padding: 18px;
     font-size: 15px;
@@ -181,12 +181,12 @@ section{
     font-weight: 600;
 }
 
-.celulares{
+.celularesexperienciaUser{
     padding-top: 31px;
     width: 100vw;
 }
 
-.work{
+.workcocawork{
     font-family: "Inter", sans-serif;
     font-size: 10px;
     padding-left: 6vw;
@@ -194,14 +194,14 @@ section{
     color: #1877F2;
 }
 
-.Coca{
+.CocacocaWork{
     font-family: "Inter", sans-serif;
     padding-left: 6vw;
     padding-top: 16px;
     font-size: 7vw;
 }
 
-.Container{
+.ContainerFundoCocaWork{
     font-family: "Inter", sans-serif;
     background-color: #F9FAFF;
     margin-top: 31px;
@@ -211,23 +211,23 @@ section{
     padding-bottom: 13.8vw;
 }
 
-.imgMouse{
+.imgMouseCocaWork{
     width: 12.8vw;
     height: 12.8vw;
 }
-.containerMouse{
+.containerMouseCocaWork{
     padding-top: 15vw;
     display: flex;
     margin-left: 6vw;
 }
 
-.textoMouse{
+.textoMouseCocaWork{
     font-size: 18px;
     padding-left: 5vw;
     letter-spacing: -1px;
 }
 
-.texoAdicionalMouse{
+.texoAdicionalMouseCocaWork{
    color: #808D9E;
    font-size: 14px;
    font-weight: 500;
@@ -235,19 +235,19 @@ section{
    padding-top: 3vw;
 }
 
-.linha{
+.linhaCocaWork{
     padding: 0.1vw;
     margin: 10vw 5vw;
     background-color: #E9ECF2;
 }
 
-.containergarrinha{
+.containergarrinhaCocaWork{
     display: flex;
     padding-top: 4vw;
     margin-left: 6vw;
 }
 
-.Start{
+.StartCocaWork{
     margin-top: 26.4vw;
     font-size: 36px;
     padding-left: 5.3vw;
@@ -256,7 +256,7 @@ section{
     margin-right: 20vw;
 }
 
-.Nunc{
+.NuncCocaWork{
     font-family: "DM sans";
     font-size: 14px;
     font-weight: 600;
@@ -266,14 +266,14 @@ section{
     margin-left: 6vw;
 }
 
-.only{
+.onlyCocaWork{
     font-family: "poppins";
     font-weight: 600;
     margin-top: 11.7vw;
     margin-left: 6vw;
 }
 
-.silver{
+.silverCocaWork{
     color: #808D9E;
     font-size: 3.7vw;
     font-weight: 400;
@@ -282,7 +282,7 @@ section{
     margin-top: 1vw;
 }
 
-.pricing{
+.pricingCocaWork{
     margin-top: 29px;
     padding: 15px;
     margin-left: 20px;
@@ -293,21 +293,21 @@ section{
     border-radius: 80px;
     text-align: center;
 }
-.mulhercelular{
+.mulhercelularChatboots{
     width: 91.2vw;
     height: 100vw;
     margin-top: 26vw;
     margin-left: 6vw;
 }
 
-.Business{
+.BusinessChatboots{
     font-size: 36px;
     font-family: "Inter", sans-serif;
     margin-left: 6vw;
     letter-spacing: -1px;
 }
 
-.messaging{
+.messagingChatboots{
     font-family: "Inter", sans-serif;
     color: #757B8A;
     font-size: 16px;
@@ -318,7 +318,7 @@ section{
     margin-right: 10vw;
 }
 
-.informacoes{
+.informacoesChatboots{
     display: flex;
     margin-top: 32px;
     margin-left: 6vw;
@@ -329,14 +329,14 @@ section{
     margin-left: 40px;
 }
 
-.nunsp{
+.numerosChatboots{
     font-family: "poppins";
     font-size: 32px;
     font-weight: 600;
 
 }
 
-.triggers{
+.triggersChatboots{
     font-family: "inter";
     font-size: 14px;
     font-weight: 500;
@@ -344,7 +344,7 @@ section{
 
 }
 
-.testimonialss{
+.testimonialssTitulo{
     font-family: "Inter", sans-serif;
     font-size: 10px;
     padding-left: 7vw;
@@ -352,14 +352,14 @@ section{
     color: #1877F2;
 }
 
-.cplataform{
+.cplataformTestimonials{
     font-family: "Inter", sans-serif;
     font-size: 40px;
     margin-top: 16px;
     margin-left: 7vw;
 }
 
-.fundo{
+.fundocaixasTestimonials{
     background-color: #F9FAFF;
     border-radius: 20px;
     margin-left: 6vw;
@@ -368,11 +368,12 @@ section{
     margin-bottom: -24px;
 }
 
-.junta{
+.juntaImagemeTextoTestimonials{
     display: flex;
     padding: 40px 40px;
 }
-.nome{
+
+.nomePessoasTestimonials{
     font-family: "Inter", sans-serif;
     font-size: 20px;
     padding-left: 20px ;
@@ -381,7 +382,7 @@ section{
     font-weight: 700;
 }
 
-.funcao{
+.funcaoPessoasTestimonials{
     font-family: "Inter", sans-serif;
     padding-left: 20px;
     letter-spacing: -1px;
@@ -391,7 +392,7 @@ section{
 
 }
 
-.descricaoPessoa{
+.descricaoPessoaTestimonials{
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -400,7 +401,7 @@ section{
     line-height: 24px;
 }
 
-.estrelasPessoa{
+.estrelasPessoastestimonials{
     font-family: "Inter", sans-serif;
     padding-left: 40px;
     padding-top: 20px;
@@ -424,14 +425,14 @@ footer{
     padding-top: 77px;
 }
 
-.juntaloc{
+.juntalocFooter{
     display: flex;
     margin-top: -362px;
     padding-left: 40px;
     padding-right: 16px
 }
 
-.juntaemail{
+.juntaemailFooter{
     display: flex;
     padding-top: 16px;
     padding-left: 40px;
@@ -439,7 +440,7 @@ footer{
     align-items: center;
 }
 
-.loc{
+.locFooter{
     font-size: 16px;
     padding-left: 14px;
     font-weight: 300;
@@ -462,18 +463,18 @@ footer{
   
 }
 
-.terms{
+.termsFooter{
     font-size: 16px;
     font-weight: 300;
     padding-right: 46px;
 }
 
-.privacy{
+.privacyFooter{
     font-size: 16px;
     font-weight: 300;
 }
 
-.rodape{
+.rodapeFooter{
     font-size: 16px;
     font-weight: 300;
     text-align: center;
@@ -481,17 +482,17 @@ footer{
     padding-bottom: 48.5PX;
 }
 
-.c{
+.cFooter{
     padding-right: 39px;
     margin-top: 42px;
     z-index: 1;
 }
 
-.C{
+.CFooter{
     display: none;
 }
 
-.mulhercelulardesk{
+.mulhercelulardeskChatboots{
     display: none;
 }
 
@@ -521,7 +522,7 @@ footer{
         max-width: 45%;
     }
 
-    .capa{
+    .imagemCapaHeader{
         width: 100%;
         margin-left: 0;
         margin-top: -2px;
@@ -547,7 +548,7 @@ footer{
         padding-top: 26px;
     }
 
-    .espaco{
+    .espacoImagenEInformacoes{
         display: flex;
         align-items: center;
         font-size: 14px;
@@ -585,19 +586,19 @@ footer{
         font-size: 16px;
     }
 
-    .titulo h1{
+    .tituloHeader h1{
         font-size: 64px;
         width: 520px;
         margin-left: 8vw;
         padding-left: 0;
     }
 
-    .setinha{
+    .setaHeader{
         width: 95.5px;
         margin-left: 477px;
     }
 
-    .juntadays{
+    .juntaDayseEmail{
         display: flex;
     }
 
@@ -615,120 +616,122 @@ footer{
         margin-right: 0;
     }
 
-    .flexpessoinhas{
+    .flexpessoasHeader{
         display: flex;
         margin-top: 98px;
     }
 
-    .pessoinhas{
+    .pessoasHeader{
         margin-top: 4.5px;
         max-height: 54px;
      }
 
-    .numeros{
+    .numerosHeader{
       width: 190px;
       margin-left: 70px;
     }
 
-    .juntatudo{
+    .juntatudoHeaderNumerosePalavras{
         margin-left: -30px;
     }
 
-    .Happy{
+    .HappyHeader{
         margin-left: 0;
     }
-    .num{
-        margin-left: 0;
-    }
-
-    .estrela{
+    .numHeader{
         margin-left: 0;
     }
 
-    .outronum{
+    .estrelaHeader{
+        margin-left: 0;
+    }
+
+    .outronumHeader{
         margin-left: 0;
     }
 
 
-    .expUser{
+    .experienciaUser{
         display: flex;
     }
 
-    .respon{
+    .juntaExperienciaUser{
         flex: 1;
     }
 
-    .respon2{
+    .junta2ExperienciaUser{
         flex: 2;
     }
 
-    .celulares{
+    .celularesexperienciaUser{
         width: 100%;
         margin-top: 58px;
     }
 
-    .customer{
+    .customerexprienciaUser{
         font-size: 48px;
         line-height: 57.6px;
-        margin-top: 160px
+        margin-top: 160px;
+        width: 600px;
     }
 
-    .appplataform{
+    .appplataformexperienciaUser{
         line-height: 25.6px;
         margin-top: 32px;
+        width: 720px;
     }
 
-    .start{
+    .startexperienciaUser{
         width: 210px;
         height: 56px;
         margin-top: 40px;
         margin-right: 10px;
     }
 
-    .Container{
+    .ContainerFundoCocaWork{
         display: flex;
     }
 
-    .work{
+    .workcocawork{
         text-align: center;
         margin-top: 120px;
     }
 
-    .Coca {
+    .CocacocaWork {
         text-align: center;
         font-size: 38px;
         margin-bottom: 70px;
     }
 
-    .containerjunta{
+    .containerIconeseTextos{
         width: 50%;
     }
 
-    .containerstart{
+    .containerstartCocaWork{
         width: 50%;
     }
 
-    .imgMouse{
+    .imgMouseCocaWork{
         width: 60px;
         height: 60px;
     }
 
-    .containerMouse{
+    .containerMouseCocaWork{
         padding-top: 105px;
     }
 
-    .containergarrinha{
+    .containergarrinhaCocaWork{
         padding-top: 0
     }
 
-    .Start{
+    .StartCocaWork{
         font-size: 46px;
         margin-top: 99px;
         margin-bottom: 18px;
         width: 360px;
     }
 
-    .pricing{
+    .pricingCocaWork{
         font-size: 16px;
         padding: 0;
         width: 191px;
@@ -739,29 +742,29 @@ footer{
         margin-top: 162px;
     }
 
-    .silver{
+    .silverCocaWork{
         font-size: 14px;
         margin-top: -30px;
     }
 
-    .Container{
+    .ContainerFundoCocaWork{
         border-radius: 20px;
         margin-left: 120px;
         margin-right: 120px;
         padding-bottom: 65px ;
     }
 
-    .textoMouse{
+    .textoMouseCocaWork{
         font-size: 24px;
         padding-left: 40px;
     }
 
-    .texoAdicionalMouse{
+    .texoAdicionalMouseCocaWork{
         padding-top: 10px;
         padding-left: 40px;
     }
 
-    .linha{
+    .linhaCocaWork{
         width: 436px;
         height: 1px;
         margin: 52px 54px;
@@ -769,76 +772,76 @@ footer{
         margin-left: 6vw;
     }
 
-    .Nunc{
+    .NuncCocaWork{
         line-height: 26px;
         margin-left: 80px;
     }
 
-    .only{
+    .onlyCocaWork{
         margin-top: 161px;
     }
 
-    .juntaaOnly{
+    .juntaaOnlyebotaoCocaWork{
         display: flex;
     }
 
-    .juntaSO{
+    .juntaSilverOnlyCocaWork{
         width: 47%;
     }
 
-    .juntaP{
+    .juntaPricing{
         width: 50%;
     }
 
-    .mulhercelular{
+    .mulhercelularChatboots{
         display: none;
     }
 
-    .juntadesk{
+    .juntadeskImagemeTextos{
         display: flex;
     }
 
-    .messaging{
+    .messagingChatboots{
         line-height: 25.6px;
         margin-top: 32px;
         padding-left: 0;
         margin-right: 90px;
     }
 
-    .Business{
+    .BusinessChatboots{
         font-size: 48px;
         margin-top: 243px;
         margin-left: 0;
         margin-right: 50px;
     }
 
-    .mulhercelulardesk{
+    .mulhercelulardeskChatboots{
         display: grid;
         margin-top: 198px;
         margin-left: 80px;
         max-width: 550px;
     }
 
-    .informacoes{
+    .informacoesChatboots{
         margin-left: 0;
     }
 
-    .tudojunto{
+    .juntaTextosChatboots{
         margin-top: 50px;
     }
 
-    .testimonialss{
+    .testimonialssTitulo{
         padding-left: 0;
         text-align: center;
     }
 
-    .cplataform{
+    .cplataformTestimonials{
         text-align: center;
         margin-inline: auto;
         width: 510px;
     }
 
-    .fundo{
+    .fundocaixasTestimonials{
         width: 471px;
         height: 280px;
         margin: 0;
@@ -851,27 +854,27 @@ footer{
         margin: 0;
     }
 
-    .decima{
+    .caixasTestimonials{
         display: flex;
         justify-content: center;
         margin-top: 60px;
         gap: 100px;
     }
 
-    .padd{
+    .paddingTestimonials{
         width: clamp(50px, 5vw ,80px);
         height: 6px;
         background-color: #1877F2;
     }
 
-    .pad{
+    .padTestimonials{
         width: clamp(50px, 5vw ,80px);
         height: 6px;
         margin-left: 10px;
         background-color: #F2F4FC;
     }
 
-    .juntapad{
+    .juntapaddingTestimonials{
         display: flex;
         margin-top: 80px;
         justify-content: center;
@@ -900,23 +903,23 @@ footer{
     }
 
     
-    .juntaloc{
+    .juntalocFooter{
         margin-top: 0;
         margin-right: -30px;
         align-items: center;
         padding: 0;
     }
 
-    .loc{
+    .locFooter{
         width: 70%;
     }
-    .juntaemail{
+    .juntaemailFooter{
         width: 50%;
         margin-right: 0;
         padding: 0;
     }
 
-    .juntatudodesk{
+    .juntatudodeskUltimaLinhaFooter{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -929,12 +932,12 @@ footer{
         margin-right: 118px;
     }
 
-    .rodape{
+    .rodapeFooter{
         padding-bottom: 35.8px;
     }
    
 
-    .c{
+    .cFooter{
         display: none;
     }
 
@@ -946,16 +949,16 @@ footer{
         padding-bottom: 0;
     }
 
-    .capa{
+    .imagemCapaHeader{
         min-width: 320px;
     }
 
-    .mulhercelulardesk{
+    .mulhercelulardeskChatboots{
         min-width: 700px;
         margin-left: 150px;
     }
 
-    .Business{
+    .BusinessChatboots{
         margin-right: 180px;
     }
 
