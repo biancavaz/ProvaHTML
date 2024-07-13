@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+:root{
+    --azulEscuroHeader : #163153;
+    --azulclaro: #1877F2;
+    --fundoCinza:  #F9FAFF
+    
+}
+
+
 .headermobile{
-    background-color: #163153;
+    background-color: var(--azulEscuroHeader);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +25,7 @@
 }
 
 section{
-    background-color: #163153;
+    background-color: var(--azulEscuroHeader);
     
 }
 
@@ -71,7 +79,7 @@ section{
 
 .days h4{
     color: #ffffff;
-    background-color: #1877F2;
+    background-color: var(--azulclaro);
     font-family: "Inter", sans-serif;
     border-radius: 60px;
     padding: 16px 32px;
@@ -171,7 +179,7 @@ section{
     font-family: "Inter", sans-serif;
     padding: 18px;
     font-size: 15px;
-    background-color: #1877F2;
+    background-color: var(--azulclaro);
     border-radius: 10vw;
     color: #ffffff;
     text-align: center;
@@ -191,7 +199,7 @@ section{
     font-size: 10px;
     padding-left: 6vw;
     padding-top: 75px;
-    color: #1877F2;
+    color: var(--azulclaro);
 }
 
 .CocacocaWork{
@@ -203,7 +211,7 @@ section{
 
 .ContainerFundoCocaWork{
     font-family: "Inter", sans-serif;
-    background-color: #F9FAFF;
+    background-color: var(--fundoCinza);
     margin-top: 31px;
     border-radius: 7vw;
     margin-left: 5.3vw;
@@ -351,7 +359,7 @@ section{
     font-size: 10px;
     padding-left: 7vw;
     padding-top: 138px;
-    color: #1877F2;
+    color: var(--azulclaro);
 }
 
 .cplataformTestimonials{
@@ -362,7 +370,7 @@ section{
 }
 
 .fundocaixasTestimonials{
-    background-color: #F9FAFF;
+    background-color: var(--fundoCinza);
     border-radius: 20px;
     margin-left: 6vw;
     margin-top: 40px;
@@ -411,7 +419,7 @@ section{
 }
 
 footer{
-    background-color: #1877F2;
+    background-color: var(--azulclaro);
     color: #ffffff;
     font-family: "Inter", sans-serif;
     margin-top: 179px;
@@ -544,7 +552,7 @@ footer{
     .headerdesktop{
         color: #ffffff;
         font-family: "inter";
-        background-color: #163153;
+        background-color: var(--azulEscuroHeader);
         display: flex;
         justify-content: space-between;
         padding-top: 26px;
@@ -581,7 +589,7 @@ footer{
     }
 
     .fundoheader{
-        background-color: #1877F2;
+        background-color: var(--azulclaro);
         padding: 16px 32px;
         font-weight: 500;
         border-radius: 8px;
@@ -741,18 +749,17 @@ footer{
         align-content: center;
         font-weight: 900;
         margin-left: 0;
-        margin-top: 162px;
+        margin-top: 180px;
     }
 
     .silverCocaWork{
         font-size: 14px;
-        margin-top: -30px;
+        margin-top: -2vw;
     }
 
     .ContainerFundoCocaWork{
         border-radius: 20px;
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-inline: clamp(80px, 8.4vw, 120px);
         padding-bottom: 65px ;
     }
 
@@ -767,7 +774,6 @@ footer{
     }
 
     .linhaCocaWork{
-        width: 436px;
         height: 1px;
         margin: 52px 54px;
         padding: 0;
@@ -776,11 +782,11 @@ footer{
 
     .NuncCocaWork{
         line-height: 26px;
-        margin-left: 80px;
+        margin-left: 5vw;
     }
 
     .onlyCocaWork{
-        margin-top: 161px;
+        margin-top: 0;
     }
 
     .juntaaOnlyebotaoCocaWork{
@@ -789,6 +795,7 @@ footer{
 
     .juntaSilverOnlyCocaWork{
         width: 47%;
+        margin-top: 175px;
     }
 
     .juntaPricing{
@@ -811,7 +818,7 @@ footer{
     }
 
     .BusinessChatboots{
-        font-size: 48px;
+        font-size: clamp(36px, 3.5vw ,48px);
         margin-top: 243px;
         margin-left: 0;
         margin-right: 50px;
@@ -866,7 +873,7 @@ footer{
     .paddingTestimonials{
         width: clamp(50px, 5vw ,80px);
         height: 6px;
-        background-color: #1877F2;
+        background-color: var(--azulclaro);
     }
 
     .padTestimonials{
