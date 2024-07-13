@@ -222,6 +222,7 @@ section{
 }
 
 .textoMouseCocaWork{
+    font-family: "poppins";
     font-size: 18px;
     padding-left: 5vw;
     letter-spacing: -1px;
@@ -229,8 +230,8 @@ section{
 
 .texoAdicionalMouseCocaWork{
    color: #808D9E;
-   font-size: 14px;
-   font-weight: 500;
+   font-size: 16px;
+   font-weight: 400;
    padding-left: 5vw;
    padding-top: 3vw;
 }
@@ -341,6 +342,7 @@ section{
     font-size: 14px;
     font-weight: 500;
     color: #757B8A;
+    line-height: 35px;
 
 }
 
@@ -678,7 +680,7 @@ footer{
     .appplataformexperienciaUser{
         line-height: 25.6px;
         margin-top: 32px;
-        width: 720px;
+        width: clamp(720px, 28vw, 1000px);
     }
 
     .startexperienciaUser{
@@ -699,7 +701,7 @@ footer{
 
     .CocacocaWork {
         text-align: center;
-        font-size: 38px;
+        font-size: 32px;
         margin-bottom: 70px;
     }
 
@@ -884,7 +886,7 @@ footer{
         margin-top: 115px;
         background-image: url("imagens/c2.svg");
         background-repeat: no-repeat;
-        background-position-x: 80%;
+        background-position-x: 85%;
         background-position-y: bottom;
     }
 
@@ -893,6 +895,7 @@ footer{
         margin-left: 120px;
         padding-left: 0;
         width: 540px;
+        line-height: 76.8px;
     }
 
      .juntafooter{
